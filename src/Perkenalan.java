@@ -20,5 +20,7 @@ public class Perkenalan {
 
         System.out.print("Masukkan Asal Kota anda: ");
         String asalKota = scanner.nextLine();
+
+        System.out.println("Halo! Nama Saya " + nama + "(NIM" + nim + "), " + "Umur saya " + umur + " tahun, " + "Tinggi Badan saya " + tinggi + " cm, " + "Saya berasal dari " + asalKota + ".");
     }
 }
