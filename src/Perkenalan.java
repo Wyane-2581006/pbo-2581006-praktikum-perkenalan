@@ -9,5 +9,16 @@ public class Perkenalan {
 
         System.out.print("Silahkan Input NIM anda: ");
         int nim = scanner.nextInt();
+
+        System.out.print("Silahkan Masukkan Umur anda: ");
+        int umur = scanner.nextInt();
+
+        System.out.print("Silahkan Masukkan Tinggi Badan anda: ");
+        double tinggi = scanner.nextDouble();
+
+        scanner.nextLine();
+
+        System.out.print("Masukkan Asal Kota anda: ");
+        String asalKota = scanner.nextLine();
     }
 }
